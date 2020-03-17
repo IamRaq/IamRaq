@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link href="public/css/style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,600,700,800" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,50 +18,71 @@
   <nav>
     <a href="#" id="menu-icon"></a>
     <ul class="navUL">
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="cv.html">Experience</a></li>
-      <li><a href="talks.html">Talks</a></li>
-      <li><a href="creative.html">Personal</a></li>
+      <li><a href="index.html">About</a></li>
+      <li style = "background-color: white"><a href="projects.html">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <!-- <li><a href="cv.html">Experience</a></li> -->
+      <!-- <li><a href="talks.html">Talks</a></li> -->
+      <!-- <li><a href="creative.html">Personal</a></li> -->
 
     </ul>
 
   </nav>
 
  </header> <!-- /header -->
+ <br><br>
+ <br><br>
+ <br><br>
 
-<div class="row projects">
-
-  <div class="col-1-2 projectColumn">
-    <a class ="projectLink" href="events.html">
-      <img class ="projectImg" src="public/img/Me.jpg">
-        <div class="projectBack">
-          <p class="projectText">DJ & Events Work</p>
+ <section class="mw7 center avenir">
+  <article class="bt bb b--black-10">
+    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://play-dobble.netlify.com/" target="blank">
+      <div class="flex flex-column flex-row-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <img src="public/img/flobble.png" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
         </div>
-      </img>
-    </a>
-  </div>
-
-  <div class="col-1-2 projectColumn">
-    <a class ="projectLink" href="bodycams.html">
-      <img class ="projectImg" src="public/img/project2.png">
-        <div class="projectBack">
-          <p class="projectText">ANALYSIS  + PAPER</p>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f3 fw1 baskerville mt0 lh-title">FLOBBLE</h1>
+          <p class="f6 f5-l lh-copy">
+            An online version of  “Dobble,” a card game where users aim to find the unique matching element 
+            with other cards in the deck.
+          </p>
         </div>
-      </img>
+      </div>
     </a>
-  </div>
-
-  <div class="col-1-2 projectColumn">
-    <a class ="projectLink" href="youtube.html">
-      <img class ="projectImg" src="https://raw.githubusercontent.com/hjohns12/youtube_analysis/master/munge-and-analyze_files/figure-html/add_props-1.png">
-        <div class="projectBack">
-          <p class="projectText">WEBSCRAPING + EXPLORATION</p>
+  </article>
+  <article class="bb b--black-10">
+    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://stock-up.netlify.com/" target="blank">
+      <div class="flex flex-column flex-row-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <img src="public/img/stock-up2.png" class="db" alt="Photo of a warehouse with stacked shelves.">
         </div>
-      </img>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f3 fw1 baskerville mt0 lh-title">STOCK UP</h1>
+          <p class="f6 f5-l lh-copy">
+            Stock Up is an app that aims to provide users a convenient way to buy stocks and monitor their portfolio.
+          </p>
+        </div>
+      </div>
     </a>
-  </div>
+  </article>
+  <article class="bb b--black-10">
+    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.loom.com/share/4d50e0e68b004e8aafd0ee955836fb5d" target = "blank">
+      <div class="flex flex-column flex-row-ns">
+        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+          <img src="public/img/hot-play.png" class="db" alt="Photo of a whale's tale coming crashing out of the water.">
+        </div>
+        <div class="w-100 w-60-ns pl3-ns">
+          <h1 class="f3 fw1 baskerville mt0 lh-title">HOT PLAY</h1>
+          <p class="f6 f5-l lh-copy">
+            A  Slack clone for sharing, discussing and discovering new music based on genre.
+          </p>
+        </div>
+      </div>
+    </a>
+  </article>
+</section>
+
 
 </div>
 </body>
